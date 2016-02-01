@@ -6,10 +6,14 @@ puts donuts.length
 #How can you know what the 4th donut in the box is?
 puts donuts[3]
 #How can you assign donuts in this box to classmates (think of classmates as variables)
-Ned = [0]
-James = [4]
-Daniel = [3]
-Dean = [1]
+Ned = donuts[0]
+puts Ned
+James = donuts[4]
+puts James
+Daniel = donuts[3]
+puts Daniel
+Dean = donuts[1]
+puts Dean
 #Find a method that lets you search the box of donuts to see if yours in there
 puts donuts.include? 'boston creme'
 #If you took a donut from this array, what method would you use to completely remove it from the array..err, box
