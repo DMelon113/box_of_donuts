@@ -17,7 +17,7 @@ puts Dean
 #Find a method that lets you search the box of donuts to see if yours in there
 puts donuts.include? 'boston creme'
 #If you took a donut from this array, what method would you use to completely remove it from the array..err, box
-donuts.delete_at(3)
+donuts.delete("boston creme")
 #How could you add another donut to this box?
 donuts << "glazed"
 #How can you iterate through the box and show a list of all the donuts?
